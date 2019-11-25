@@ -1,0 +1,84 @@
+body{
+    background-color: #232323;
+}
+#pre-nav {
+    background-color: steelblue;
+    height: 10rem;
+    text-transform: uppercase;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+#color-display{
+    font-size: 3.5rem;
+}
+.square{
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 1.5rem;
+    background-color: #232323;
+    transition: background 1s;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+
+}
+
+#container{
+    margin: 1.25rem auto;
+    max-width: 600px;
+}
+
+.wrong-square{
+    transition: background 1s;
+    background-color: #232323 !important;
+}
+
+.right-square{
+    transition: background 1s;
+}
+
+#stripe{
+    background-color: white;
+    height: 2rem;
+    text-align: center;
+    color: black;
+}
+
+.selected{
+    background: steelblue;
+    color: #fff;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 0.05rem;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: none;
+}
+
+button:hover{
+    background: steelblue;
+    color: #fff;
+}
+
+#li-result{
+    display: inline-block;
+    width: 10rem;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 0.05rem;
+}
